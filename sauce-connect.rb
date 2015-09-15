@@ -3,8 +3,8 @@ require "formula"
 
 class SauceConnect < Formula
   homepage "https://docs.saucelabs.com/reference/sauce-connect/"
-  url "https://saucelabs.com/downloads/sc-4.3.9-osx.zip"
-  sha1 "b15857b60c8b6e1105a241c9faebd7896192c1e0"
+  url "https://saucelabs.com/downloads/sc-4.3.11-osx.zip"
+  sha1 "5d0aa851d21f3d4a21f298b6a921761c6aa15217"
 
   def install
     bin.install 'bin/sc'
